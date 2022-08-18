@@ -1,0 +1,4 @@
+test\demo\testrunner\TestRunner.class
+test\demo\pageobjects\UIPageObject.class
+test\demo\stepdefinitions\API.class
+test\demo\stepdefinitions\UI.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="labcorp mock test for API Validation" skipped="0" tests="2" time="7.87" timestamp="2022-08-18 11:49:19"><testcase name="API validation of POST call"/><testcase name="API validation of GET call"><failure message="1 expectation failed.&#10;JSON path x[98].createdAt doesn't match.&#10;Expected: 265&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path x[98].createdAt doesn't match.
+Expected: 265
+  Actual: null
+</failure><system-err>1 expectation failed.
+JSON path x[98].createdAt doesn't match.
+Expected: 265
+  Actual: null
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)&#13;
+test.demo.stepdefinitions.API.verify_successfully_posted(API.java:57)&#13;
+✽.verify successfully posted(src/test/resources/Features/API.feature:14)&#13;
+</system-err></testcase></testsuite>
